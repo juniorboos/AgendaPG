@@ -1,21 +1,27 @@
-import { StatusBar } from 'expo-status-bar';
+import { StatusBar, YellowBox } from 'react-native';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { AppLoading } from 'expo';
+import { NavigationContainer } from "@react-navigation/native";
+import { Raleway_800ExtraBold, Raleway_500Medium, Raleway_600SemiBold, useFonts } from '@expo-google-fonts/raleway';
+
+import Routes from './src/routes';
 
 export default function App() {
+  YellowBox.ignoreWarnings(['Setting a timer']);
+  console.disableYellowBox = true;
+  const [fontsLoaded] = useFonts ({
+    Raleway_800ExtraBold,
+    Raleway_600SemiBold,
+    Raleway_500Medium
+  });
+
+  if(!fontsLoaded) {
+    return <AppLoading />
+  }
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <StatusBar barStyle="dark-content" backgroundColor="transparent" translucent />
+      <Routes />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

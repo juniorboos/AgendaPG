@@ -1,0 +1,357 @@
+[
+ {   
+    "id": 1,
+    "label": "1. DIVISÃO DE RENDAS DE ATIVIDADES ECONÔMICAS",
+    "data": [
+        {
+            "id": 101,
+            "label": "1.1 - Alvará de Taxista - Transferêrencia",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/4-taxista.html"
+        },
+        {
+            "id": 102,
+            "label": "1.2 - Alvará de Localização (requerimento)",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/5-alvara.html"
+        },
+        {
+            "id": 103,
+            "label": "1.3 - Alvará de Localização (atendente pa)",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/6-alvara2.html"
+        },
+        {
+            "id": 104,
+            "label": "1.4 - Declaração de Autônomo",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/7-declaracao.html"
+        },
+        {
+            "id": 105,
+            "label": "1.5 - Declaração de Extravio de Alvará",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/8-buscaalvara.html"
+        },
+        {
+            "id": 106,
+            "label": "1.6 - Decreto n.º 2.420 - Expedição de Alvarás de Localização",
+            "haveForm": false,
+            "type": "Decreto",
+            "url": "http://www.pontagrossa.pr.gov.br/files/decreto2420.rtf"
+        },
+        {
+            "id": 107,
+            "label": "1.7 - Decreto n.º 2.420 - Anexo I",
+            "haveForm": false,
+            "type": "Termo de Compromisso (Documento)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/decreto2420-anexo1.rtf"
+        },
+        {
+            "id": 108,
+            "label": "1.8 - Decreto n.º 2.420 - Anexo II",
+            "haveForm": true,
+            "type": "Termo de Compromisso (Documento)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/decreto2420-anexo2.rtf"
+        },
+        {
+            "id": 109,
+            "label": "1.9 - Decreto n.º 2.420 - Anexo III",
+            "haveForm": true,
+            "type": "Termo de Compromisso (Documento)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/decreto2420-anexo3.rtf"
+        },
+        {
+            "id": 110,
+            "label": "1.10 - Decreto n.º 2.420 - Anexo IV",
+            "haveForm": false,
+            "type": "Decreto",
+            "url": "http://www.pontagrossa.pr.gov.br/files/decreto2420-anexo4.rtf"
+        },
+        {
+            "id": 111,
+            "label": "1.11 - Decreto n.º 2.420 - Anexo VI",
+            "haveForm": true,
+            "type": "Formulário (Documento)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/mei-anexovi.docx"
+        },
+        {
+            "id": 112,
+            "label": "1.12 - Sistema de Requerimento Praça de Atendimento",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/2-urbanismo.html"
+        },
+        {
+            "id": 113,
+            "label": "1.13 - Planilha para solicitação de Habite-se",
+            "haveForm": true,
+            "type": "Formulário (PDF)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/tabela-de-formulario-habitese-12-11-2017.pdf"
+        },
+        {
+            "id": 114,
+            "label": "1.14 Declaração de não execução de atividades comerciais no local (ANEXO VII - DECRETO N° 2420/2008)",
+            "haveForm": true,
+            "type": "Formulário (PDF)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/alvara-anexo-vii.pdf"
+        }
+    ]
+ },
+ {
+     "id": 2,
+     "label": "2. DEPARTAMENTO DE VIGILÂNCIA SANITÁRIA",
+     "data": [
+        {
+            "id": 201,
+            "label": "2.1 - Vigilância Sanitária - Requerimento para baixa e ingresso de RT (responsabilidade técnica)",
+            "haveForm": true,
+            "type": "Requerimento (Documento)",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/requerimento-baixa-e-ingresso-de-rt-modelo-01-2017.doc"   
+         },
+         {
+            "id": 202,
+            "label": "2.2 - Vigilância Sanitária - Requerimento de numerações para Notificação de Receita (NR)",
+            "haveForm": true,
+            "type": "Requerimento (Documento)",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/requerimento-numeracao-receituario-modelo-01-2017.doc"   
+         },
+         {
+            "id": 203,
+            "label": "2.3 - SINAVISA - Ficha - Estabelecimento",
+            "haveForm": true,
+            "type": "Formulário (PDF)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/ficha-sinavisa-estabelecimento.pdf"
+         },
+         {
+            "id": 204,
+            "label": "2.4 - SINAVISA - Instruções de preenchimento",
+            "haveForm": true,
+            "type": "Formulário (PDF)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/sinavisa-instrucoes-preenchimento.pdf"   
+         },
+         {
+            "id": 205,
+            "label": "2.5 - Requerimento de documentos à Vigilância Sanitária",
+            "haveForm": true,
+            "type": "Requerimento (Documento)",
+            "url": "http://www.pontagrossa.pr.gov.br/pracaatendimento"
+         },
+         {
+            "id": 206,
+            "label": "2.6 - Licença Sanitária - Legislação",
+            "haveForm": false,
+            "type": "Resolução",
+            "url": "http://www.pontagrossa.pr.gov.br/files/visa_rdc.pdf"   
+         },
+         {
+            "id": 207,
+            "label": "2.7 - Licença Sanitária - Instrução Normativa",
+            "haveForm": false,
+            "type": "Instrução Normativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/visa_in.pdf"   
+         },
+         {
+            "id": 208,
+            "label": "2.8 - Licença Sanitária - Modelo para emissão de licenciamento prévio",
+            "haveForm": true,
+            "type": "Declaração (Documento)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/visa_declaracao.doc"   
+         },
+         {
+            "id": 209,
+            "label": "2.9 - Limpeza e desinfecção de ambientes",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/1_no_01_limpeza_e_desinfeccao_de_ambientes.pdf"   
+         },
+         {
+            "id": 210,
+            "label": "3.0 - COVID-19 - Orientação para empresas e indústrias",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/2_orient._empresas.pdf"   
+         },
+         {
+            "id": 211,
+            "label": "3.1 - COVID-19 - Orientações para manipulação e comercialização de alimentos",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/3_orientacoes_alimentos_corona_fms.pdf"   
+         },
+         {
+            "id": 212,
+            "label": "3.2 - COVID-19 - Orientações para serviços funerários",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/4_orientacoes_coronavirus_servico_funerario.pdf"   
+         },
+         {
+            "id": 213,
+            "label": "3.3 - COVID-19 - Orientações para clínicas e consultórios médicos",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/5_orientacoes.pdf"   
+         },
+         {
+            "id": 214,
+            "label": "3.4 - COVID-19 - Orientações para serviços de abastecimento de água",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/6_orientacoes_aos_prestadores_de_servicos_de_abastecimento_de_agua.pdf"   
+         },
+         {
+            "id": 215,
+            "label": "3.5 - COVID-19 - Orientações para sistema delivery",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/7_orientacoes_delivery_corona_fms.pdf"   
+         },
+         {
+            "id": 216,
+            "label": "3.6 - Nota Orientativa 01/2020 - LIMPEZA E DESINFECÇÃO DE AMBIENTES",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/no_01_limpeza_e_desinfeccao_de_ambientes.pdf"   
+         },
+         {
+            "id": 217,
+            "label": "3.7 - Nota Orientativa 02/2020 - PREPARAÇÕES ANTISSÉTICAS E SANITIZANTES",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/no_02_preparacoes_antisseticas_e_sanitizantes.pdf"   
+         },
+         {
+            "id": 218,
+            "label": "3.8 - Nota Orientativa 03/2020 - MÁSCARAS PARA PROTEÇÃO DE AEROSOL",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/no_03_mascaras_para_protecao_de_aerossol.pdf"   
+         },
+         {
+            "id": 219,
+            "label": "3.9 - Nota Orientativa 04/2020 - ATENDIMENTO DE IDOSOS FRENTE A PANDEMIA COVID-19",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/no_04_atendimento_dos_idosos_frente_a_pandemia_covid_19.pdf"   
+         },
+         {
+            "id": 220,
+            "label": "4.0 - Nota Orientativa 05/2020 - ASSISTÊNCIA FARMACÊUTICA",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/no_05_assistencia_farmaceutica_1.pdf"   
+         },
+         {
+            "id": 221,
+            "label": "4.1 - Nota Orientativa 06/2020 - MERCADOS, SUPERMERCADOS, HIPERMERCADOS, ATACAREJOS",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/no_06_medidas_de_prevencao_de_covid_19_para_aplicacao_em_mercados_supermercados_hipermercados_atacarejos_e_todos_os_outros_estabelec.pdf"   
+         },
+         {
+            "id": 222,
+            "label": "4.2 - Nota Orientativa 07/2020 - SEGMENTOS DE ALIMENTAÇÃO",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/no_07_medidas_de_prevencao_de_covid_19_para_aplicacao_em_servicos_de_alimentacao_1.pdf"   
+         },
+         {
+            "id": 223,
+            "label": "4.3 - Nota Orientativa 08/2020 -  ORIENTAÇÃO DE ENTREGA BALANÇOS TRIMESTRAL E RELAÇÃO MENSAL DE NOTIFICAÇÕES DE RECEITA ",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/orientacoes_prazos_balancos_e_relacoes_mensais_controlados_1_.pdf"   
+         },
+         {
+            "id": 224,
+            "label": "4.4 - Nota Orientativa 08/2020 -  ORIENTAÇÃO PARA RESTAURANTES COM SERVIÇO DE SELF-SERVICE/BUFFET",
+            "haveForm": true,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/Orientacoes_Restaurantes_Buffet___VISA.pdf"   
+         },
+         {
+            "id": 225,
+            "label": "4.5 - ORIENTAÇÃO PARA TRANSPORTE DE PACIENTES",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/orientacoes_covid_19_para_transporte_de_pacientes.pdf"   
+         },
+         {
+            "id": 226,
+            "label": "4.6 - COVID-19 - Orientações para testes rápidos em farmácias",
+            "haveForm": false,
+            "type": "Nota Orientativa",
+            "url": "http://www.pontagrossa.pr.gov.br/files/orientacoe_s_covid_19_testes_rapidos_farmacias_3_atualizacao.pdf"   
+         }
+     ]
+ },
+ {
+     "id": 3,
+     "label": "3. DIVERSOS",
+     "data": [
+         {
+            "id": 301,
+            "label": "3.1 - Área Administração Tributária",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/1-tributaria.html"   
+         },
+         {
+            "id": 302,
+            "label": "3.2 - Área Controle Urbano",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/3-urbano.html"   
+         },
+         {
+            "id": 303,
+            "label": "3.3 - Solicitação para Uso de Transporte Escolar",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/9-escolar.html"   
+         },
+         {
+            "id": 304,
+            "label": "3.4 - Solicitação de Prévia de ITBI",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/12-itbi2.html"   
+         },
+         {
+            "id": 305,
+            "label": "3.5 - Requerimento para ITBI válido",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://app.pontagrossa.pr.gov.br/praca/13-itbi1.html"   
+         },
+         {
+            "id": 306,
+            "label": "3.6 - Requerimento para cote/poda de árvores",
+            "haveForm": true,
+            "type": "Requerimento (Documento)",
+            "url": "http://www.pontagrossa.pr.gov.br/files/cortearvores.doc"   
+         }
+     ]
+ },
+ {
+     "id": 4,
+     "label": "4. SMCSP",
+     "data": [
+        {
+            "id": 401,
+            "label": "4.1 - Ressarcimento do porte de arma - GM",
+            "haveForm": true,
+            "type": "Formulário Online",
+            "url": "http://www.pontagrossa.pr.gov.br/files/formulario_ressarcimento.pdf"   
+         }
+         
+     ]
+ }
+
+]
