@@ -1,3 +1,0 @@
-  9/17/2020 9:24:53 PM: Starting composition “Final Comp”.
-
-  Output To: C:\Users\Junior\Desktop\dot\JavaScript\AgendaPG\Final Comp.avi      Render stopped by user.      Render stopped by user.  
