@@ -1,0 +1,8 @@
+  9/17/2020 11:22:17 PM: Starting composition “Final Comp”.
+
+  Output To: C:\Users\Junior\Desktop\dot\JavaScript\AgendaPG\Final Comp2.avi    9/17/2020 11:23:03 PM: Finished composition “Final Comp”.
+
+
+  Total Time Elapsed: 46 Seconds
+Log closed on 9/17/2020 at 11:23:03 PM
+

@@ -16,6 +16,7 @@ export default function Register({ navigation }) {
    const [form, setForm] = useState({
       fullName: "",
       phone: "",
+      cpf: "",
       email: "",
       password: "",
       repassword:"",
@@ -84,7 +85,7 @@ export default function Register({ navigation }) {
                   displayName: form.fullName,
                }).then(function () {
                   firebase.firestore().collection('Users').doc(userId).set(
-                     { email: form.email, fullName: form.fullName, phone: form.phone }
+                     { email: form.email, fullName: form.fullName, phone: form.phone, cpf: form.cpf }
                   ).then(() => {
                      createButtonAlert("Success", "Registration Successful!!");
                      return navigation.navigate('Login');
@@ -137,9 +138,9 @@ export default function Register({ navigation }) {
                onChangeText={(e) => onInput("fullName", e)}
             />
             <Input
-               label="Phone number"
+               label="Telefone"
                keyboardType="phone-pad"
-               placeholder="+351"
+               placeholder="+42"
                onChangeText={(e) => onInput("phone", e)}
             />
             <Input
@@ -177,7 +178,7 @@ export default function Register({ navigation }) {
                justify="center"
                onPress={onRegistry}
             >
-               Sign In
+               Cadastrar
          </Button>
          </HideWithKeyboard>
       </View>

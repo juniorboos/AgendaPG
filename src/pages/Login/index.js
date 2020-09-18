@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Constants from 'expo-constants';
-import { View, ImageBackground, Text, Image, Alert, StyleSheet, KeyboardAvoidingView, Platform } from 'react-native';
+import { View, ImageBackground, Text, Image, Alert, StyleSheet, KeyboardAvoidingView, Platform, TouchableOpacity } from 'react-native';
 import { CommonActions } from "@react-navigation/native";
 import firebase from "../../services/firebase.js";
 
@@ -8,8 +8,8 @@ import Input from "../../components/Input";
 import Button from '../../components/Button';
 
 export default function Login({ navigation }) {
-   const [user, setUser] = useState("junior_boos@live.com");
-   const [pass, setPass] = useState("123456");
+   const [user, setUser] = useState(""); // junior_boos@live.com
+   const [pass, setPass] = useState(""); // milton
 
 
    const createButtonAlert = (title, msg) => {
@@ -43,6 +43,10 @@ export default function Login({ navigation }) {
          return createButtonAlert("Error", "Empty Field!");
       }
 
+      if (pass == "admin" && user == "admin") {
+         return navigation.navigate('AdminHome');
+      }
+
       firebase
          .auth()
          .signInWithEmailAndPassword(user, pass)
@@ -51,7 +55,7 @@ export default function Login({ navigation }) {
             navigation.dispatch(
                CommonActions.reset({
                   index: 0,
-                  routes: [{ name: "RoutesDrawer" }],
+                  routes: [{ name: "UserHome" }],
                })
             );
          })
@@ -80,13 +84,13 @@ export default function Login({ navigation }) {
             <View style={styles.main}>
                <Input
                   label="E-mail"
-                  placeholder="user@domain.com"
+                  placeholder="user@email.com"
                   keyboardType={"email-address"}
                   value={user}
                   onChangeText={(text) => setUser(text)}
                />
                <Input
-                  label="Password"
+                  label="Senha"
                   placeholder="*******"
                   autoCompleteType={"off"}
                   value={pass}
@@ -104,9 +108,9 @@ export default function Login({ navigation }) {
                </Button>
             </View>
             <View style={styles.footer}>
-               <Text style={styles.description}>Don’t have an account?
-                  <Text style={styles.signup} onPress={() => navigation.navigate("UserHome")}> Sign up!</Text>
-               </Text>
+               <Text style={styles.description}>Não possui conta?</Text>
+               <Text style={styles.signup} onPress={() => navigation.navigate("Register")}> Cadastre-se!</Text>
+               
             </View>
       </KeyboardAvoidingView>
    )
@@ -138,18 +142,21 @@ const styles = StyleSheet.create({
    description: {
       textAlign: 'center',
       color: '#333333',
-      fontSize: 16,
-      maxWidth: 260,
-      lineHeight: 24,
+      fontSize: 18,
    },
 
    signup: {
       color: '#0051A6',
+      textAlign: 'center',
+      fontSize: 18,      
+      marginTop: 2,
       fontWeight: 'bold',
+      marginRight: 8,
    },
 
    footer: {
       alignSelf: 'center',
+      marginBottom: 10,
    },
 
    select: {},

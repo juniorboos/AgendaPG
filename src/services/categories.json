@@ -1,7 +1,8 @@
 [
  {   
     "id": 1,
-    "label": "1. DIVISÃO DE RENDAS DE ATIVIDADES ECONÔMICAS",
+    "label": "DIVISÃO DE RENDAS DE ATIVIDADES ECONÔMICAS",
+    "color": "#b8042e",
     "data": [
         {
             "id": 101,
@@ -105,7 +106,8 @@
  },
  {
      "id": 2,
-     "label": "2. DEPARTAMENTO DE VIGILÂNCIA SANITÁRIA",
+     "label": "DEPARTAMENTO DE VIGILÂNCIA SANITÁRIA",
+     "color": "#2fb806",
      "data": [
         {
             "id": 201,
@@ -293,7 +295,8 @@
  },
  {
      "id": 3,
-     "label": "3. DIVERSOS",
+     "label": "DIVERSOS",
+     "color": "#e36200",
      "data": [
          {
             "id": 301,
@@ -341,7 +344,8 @@
  },
  {
      "id": 4,
-     "label": "4. SMCSP",
+     "label": "SMCSP",
+     "color": "#6805a6",
      "data": [
         {
             "id": 401,
