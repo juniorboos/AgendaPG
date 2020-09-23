@@ -2,9 +2,9 @@
 This APP provides a robust interface to make appointments remotely. Saving users time, improving queue management and reducing crowds in the public sector.
 
 ### Authors
-Anelize Luz - <a href="https://www.linkedin.com/in/anelize-luz-a16b821a7/" target="_blank">LinkedIn</a>
-Lucas Mendes - <a href="https://www.linkedin.com/in/mends/" target="_blank">LinkedIn</a>
-Milton Boos - <a href="https://www.linkedin.com/in/milton-boos-junior/" target="_blank">LinkedIn</a>
+- Anelize Luz - <a href="https://www.linkedin.com/in/anelize-luz-a16b821a7/" target="_blank">LinkedIn</a>
+- Lucas Mendes - <a href="https://www.linkedin.com/in/mends/" target="_blank">LinkedIn</a>
+- Milton Boos - <a href="https://www.linkedin.com/in/milton-boos-junior/" target="_blank">LinkedIn</a>
 
 ### Tecnologias
 
